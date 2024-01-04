@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b75d3a29.css",
-    "main.js": "/static/js/main.7e428a65.js",
-    "index.html": "/index.html",
-    "main.b75d3a29.css.map": "/static/css/main.b75d3a29.css.map",
-    "main.7e428a65.js.map": "/static/js/main.7e428a65.js.map"
+    "main.css": "/sethanimesh.github.io/static/css/main.190c63c6.css",
+    "main.js": "/sethanimesh.github.io/static/js/main.e90d7036.js",
+    "index.html": "/sethanimesh.github.io/index.html",
+    "main.190c63c6.css.map": "/sethanimesh.github.io/static/css/main.190c63c6.css.map",
+    "main.e90d7036.js.map": "/sethanimesh.github.io/static/js/main.e90d7036.js.map"
   },
   "entrypoints": [
-    "static/css/main.b75d3a29.css",
-    "static/js/main.7e428a65.js"
+    "static/css/main.190c63c6.css",
+    "static/js/main.e90d7036.js"
   ]
 }
