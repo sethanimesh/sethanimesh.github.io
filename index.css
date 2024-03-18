@@ -1,125 +1,217 @@
 .animesh-seth {
-  position: relative;
-}
-.animesh-seth-wrapper {
-  position: absolute;
-  top: 47px;
-  left: 56px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
-  font-size: 35px;
-}
-.i-am-a {
   margin: 0;
-}
-.i-am-a-container1 {
-  width: 100%;
-}
-.i-am-a-container {
-  width: 626px;
   position: relative;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
 }
-.i-am-a-data-scientist-and-java-wrapper {
-  position: absolute;
-  top: 193px;
-  left: 56px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
-  font-size: var(--font-size-13xl);
-}
+.linkedin,
 .resume {
   position: relative;
   font-weight: 300;
   color: inherit;
+  display: inline-block;
   text-decoration: none;
+  min-width: 109px;
 }
-.linkedin-wrapper,
-.resume-wrapper {
-  position: absolute;
-  top: 52px;
-  left: 1105px;
+.linkedin {
+  min-width: 124px;
+}
+.resume-parent {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
 }
-.linkedin-wrapper {
-  left: 1287px;
-}
-.email-me {
-  position: relative;
-  text-decoration: underline;
-  line-height: 60px;
-  color: inherit;
-}
-.email-me-wrapper,
-.work-experience {
-  position: absolute;
-  font-size: var(--font-size-13xl);
+.inner-f-r-a-m-e-inner {
+  width: 306px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-9xl);
 }
-.email-me-wrapper {
-  top: 607px;
-  left: 56px;
+.container-f-r-a-m-e,
+.inner-f-r-a-m-e {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: var(--padding-3xs);
+  align-items: flex-start;
+  max-width: 100%;
+}
+.inner-f-r-a-m-e {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container-f-r-a-m-e {
+  width: 1423px;
+  justify-content: flex-start;
+  padding: 0 34px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 35px;
+  color: var(--color-black);
+  font-family: var(--font-merriweather);
 }
 .work-experience {
-  top: 804px;
-  left: 61px;
-  line-height: 60px;
   width: 327px;
   height: 74px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 537px;
+  left: 56px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.blank-line,
+.i-am-a {
+  margin: 0;
+}
+.email-me2 {
+  text-decoration: underline;
+}
+.email-me1 {
+  color: inherit;
+}
+.email-me {
+  margin: 0;
+}
+.i-am-a-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 60px;
+}
+.i-am-a-data-scientist-and-java-wrapper {
+  width: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+  min-width: 626px;
+  max-width: 100%;
+}
+.frame-child {
+  width: 441px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frame-parent,
+.macbook-pro-14-1-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.macbook-pro-14-1-inner {
+  width: 1351px;
+  justify-content: flex-start;
+  padding: 0 37px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-merriweather);
 }
 .business-analyst-intern,
 .consultant-intern,
 .data-scientist-intern {
-  position: absolute;
-  top: 904px;
-  left: 66px;
+  height: 65px;
+  position: relative;
   line-height: 60px;
+  white-space: pre-wrap;
   display: flex;
   align-items: center;
-  width: 1059px;
-  height: 65px;
+  flex-shrink: 0;
+}
+.data-scientist-intern {
+  align-self: stretch;
 }
 .business-analyst-intern,
 .consultant-intern {
-  top: 969px;
   width: 965px;
+  max-width: 103%;
 }
-.consultant-intern {
-  top: 1034px;
+.data-scientist-intern-proteu-parent,
+.macbook-pro-14-1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-merriweather);
 }
-.macbook-pro-14-1-child {
-  position: absolute;
-  top: 156px;
-  left: 882px;
-  width: 515px;
-  height: 514px;
-  object-fit: cover;
+.data-scientist-intern-proteu-parent {
+  width: 940px;
+  padding: 46px 0;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
 }
 .macbook-pro-14-1 {
   width: 100%;
   position: relative;
   background-color: #eeedeb;
-  height: 1273px;
-  overflow: hidden;
-  text-align: left;
+  padding: 57px 32px 298px;
+  gap: 73.5px;
+  letter-spacing: normal;
   font-size: var(--font-size-9xl);
-  color: var(--color-black);
-  font-family: var(--font-merriweather);
+}
+@media screen and (max-width: 1225px) {
+  .frame-child,
+  .i-am-a-data-scientist-and-java-wrapper {
+    flex: 1;
+  }
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .i-am-a-data-scientist-and-java-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .resume-parent {
+    display: none;
+  }
+  .inner-f-r-a-m-e-inner {
+    width: 0;
+  }
+  .macbook-pro-14-1 {
+    gap: 37px 73.5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .work-experience {
+    font-size: 22px;
+    line-height: 48px;
+  }
+  .business-analyst-intern,
+  .consultant-intern,
+  .data-scientist-intern,
+  .i-am-a-container {
+    font-size: var(--font-size-lgi);
+    line-height: 48px;
+  }
+  .macbook-pro-14-1 {
+    gap: 18px 73.5px;
+  }
 }

@@ -8,12 +8,13 @@ body {
   --font-merriweather: Merriweather;
 
   /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
   --font-size-9xl: 28px;
-  --font-size-13xl: 32px;
 
   /* Colors */
   --color-black: #000;
 
-  /* Paddings */
-  --padding-3xs: 10px;
+  /* Gaps */
+  --gap-xl: 20px;
 }
