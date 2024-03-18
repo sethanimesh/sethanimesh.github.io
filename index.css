@@ -1,12 +1,6 @@
-.animesh-seth,
-.linkedin,
-.resume {
-  position: relative;
-  display: inline-block;
-}
 .animesh-seth {
   margin: 0;
-  width: 240px;
+  position: relative;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
@@ -14,8 +8,10 @@
 }
 .linkedin,
 .resume {
+  position: relative;
   font-weight: 300;
   color: inherit;
+  display: inline-block;
   text-decoration: none;
   min-width: 109px;
 }
