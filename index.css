@@ -1,6 +1,12 @@
+.animesh-seth,
+.linkedin,
+.resume {
+  position: relative;
+  display: inline-block;
+}
 .animesh-seth {
   margin: 0;
-  position: relative;
+  width: 240px;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
@@ -8,10 +14,8 @@
 }
 .linkedin,
 .resume {
-  position: relative;
   font-weight: 300;
   color: inherit;
-  display: inline-block;
   text-decoration: none;
   min-width: 109px;
 }
@@ -36,8 +40,8 @@
   box-sizing: border-box;
   font-size: var(--font-size-9xl);
 }
-.container-f-r-a-m-e,
-.inner-f-r-a-m-e {
+.inner-f-r-a-m-e,
+.inner-f-r-a-m-e-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -48,26 +52,15 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.container-f-r-a-m-e {
+.inner-f-r-a-m-e-wrapper {
   width: 1423px;
   justify-content: flex-start;
-  padding: 0 34px;
+  padding: 0 34px 15px;
   box-sizing: border-box;
   text-align: left;
   font-size: 35px;
   color: var(--color-black);
   font-family: var(--font-merriweather);
-}
-.work-experience {
-  width: 327px;
-  height: 74px;
-  position: absolute;
-  margin: 0 !important;
-  bottom: 537px;
-  left: 56px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
 }
 .blank-line,
 .i-am-a {
@@ -127,9 +120,44 @@
   color: var(--color-black);
   font-family: var(--font-merriweather);
 }
-.business-analyst-intern,
-.consultant-intern,
+.work-experience {
+  flex: 1;
+  position: relative;
+  line-height: 53.3px;
+  display: inline-block;
+  max-width: 100%;
+}
+.work-experience-wrapper {
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 24px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
 .data-scientist-intern {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 62.1px;
+  white-space: pre-wrap;
+}
+.frame-container {
+  width: 932px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+  debug_commit: 1cbd860;
+  font-size: var(--font-size-9xl);
+}
+.business-analyst-intern,
+.consultant-intern {
+  align-self: stretch;
   height: 65px;
   position: relative;
   line-height: 60px;
@@ -137,42 +165,33 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  debug_commit: 1cbd860;
+  margin-top: -0.2px;
 }
-.data-scientist-intern {
-  align-self: stretch;
-}
-.business-analyst-intern,
-.consultant-intern {
-  width: 965px;
-  max-width: 103%;
-}
-.data-scientist-intern-proteu-parent,
+.frame-group,
 .macbook-pro-14-1 {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  box-sizing: border-box;
+}
+.frame-group {
+  width: 965px;
+  max-width: 100%;
   text-align: left;
+  font-size: var(--font-size-5xl);
   color: var(--color-black);
   font-family: var(--font-merriweather);
-}
-.data-scientist-intern-proteu-parent {
-  width: 940px;
-  padding: 46px 0;
-  max-width: 100%;
-  z-index: 1;
-  font-size: var(--font-size-5xl);
 }
 .macbook-pro-14-1 {
   width: 100%;
   position: relative;
   background-color: #eeedeb;
-  padding: 57px 32px 298px;
-  gap: 73.5px;
+  overflow: hidden;
+  padding: 57px 32px 344px;
+  box-sizing: border-box;
+  gap: 58px;
   letter-spacing: normal;
-  font-size: var(--font-size-9xl);
 }
 @media screen and (max-width: 1225px) {
   .frame-child,
@@ -196,22 +215,22 @@
     width: 0;
   }
   .macbook-pro-14-1 {
-    gap: 37px 73.5px;
+    gap: 29px 58px;
   }
 }
 @media screen and (max-width: 450px) {
+  .i-am-a-container {
+    font-size: var(--font-size-lgi);
+    line-height: 48px;
+  }
   .work-experience {
     font-size: 22px;
     line-height: 48px;
   }
   .business-analyst-intern,
   .consultant-intern,
-  .data-scientist-intern,
-  .i-am-a-container {
+  .data-scientist-intern {
     font-size: var(--font-size-lgi);
     line-height: 48px;
-  }
-  .macbook-pro-14-1 {
-    gap: 18px 73.5px;
   }
 }
