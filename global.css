@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-merriweather: Merriweather;
+
+  /* font sizes */
+  --font-size-9xl: 28px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+}

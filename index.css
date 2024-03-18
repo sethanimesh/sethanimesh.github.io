@@ -1,0 +1,125 @@
+.animesh-seth {
+  position: relative;
+}
+.animesh-seth-wrapper {
+  position: absolute;
+  top: 47px;
+  left: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: 35px;
+}
+.i-am-a {
+  margin: 0;
+}
+.i-am-a-container1 {
+  width: 100%;
+}
+.i-am-a-container {
+  width: 626px;
+  position: relative;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.i-am-a-data-scientist-and-java-wrapper {
+  position: absolute;
+  top: 193px;
+  left: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-13xl);
+}
+.resume {
+  position: relative;
+  font-weight: 300;
+  color: inherit;
+  text-decoration: none;
+}
+.linkedin-wrapper,
+.resume-wrapper {
+  position: absolute;
+  top: 52px;
+  left: 1105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.linkedin-wrapper {
+  left: 1287px;
+}
+.email-me {
+  position: relative;
+  text-decoration: underline;
+  line-height: 60px;
+  color: inherit;
+}
+.email-me-wrapper,
+.work-experience {
+  position: absolute;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: center;
+}
+.email-me-wrapper {
+  top: 607px;
+  left: 56px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.work-experience {
+  top: 804px;
+  left: 61px;
+  line-height: 60px;
+  width: 327px;
+  height: 74px;
+}
+.business-analyst-intern,
+.consultant-intern,
+.data-scientist-intern {
+  position: absolute;
+  top: 904px;
+  left: 66px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  width: 1059px;
+  height: 65px;
+}
+.business-analyst-intern,
+.consultant-intern {
+  top: 969px;
+  width: 965px;
+}
+.consultant-intern {
+  top: 1034px;
+}
+.macbook-pro-14-1-child {
+  position: absolute;
+  top: 156px;
+  left: 882px;
+  width: 515px;
+  height: 514px;
+  object-fit: cover;
+}
+.macbook-pro-14-1 {
+  width: 100%;
+  position: relative;
+  background-color: #eeedeb;
+  height: 1273px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-merriweather);
+}
